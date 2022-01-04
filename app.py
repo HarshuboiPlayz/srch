@@ -122,4 +122,4 @@ def home():
     #return "<h1>SRCH</h1><p>Supercharge your web searches</p>"
     return render_template('index.html')
     
-app.run(port=80)
+app.run(port=8080)
